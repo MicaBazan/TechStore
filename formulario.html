@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="shortcut icon" href="assets/media/ico.png"> 
+    <script src="https://kit.fontawesome.com/3c639ff582.js" crossorigin="anonymous"></script>
+    <title>Tech Store</title>
+</head>
+<body>
+    <header class="contenedor-nav">
+        <a href="#" class="nav-url__a"><img class="nav__img" src="assets/media/logo-sf.png" alt="Logo"></a>
+        <nav class="contenedor-enlaces__nav">
+            <ul class="nav-listas">
+                <li><a href="index.html" class="nav-listas__a">Inicio</a></li>
+                <li><a href="productos.html" class="nav-listas__a">Productos</a></li>
+                <li><a href="formulario.html" class="nav-listas__a">Formulario</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="formulario-contacto">
+            <h3>Formulario de contacto</h3>
+            <p> Escribanos o llámenos al telefono +54 9 3515664894.</p>
+            <div>
+                <form class="form-contacto" action="formulario.html">
+                    <label for="nombre-contacto">Nombre</label>
+                    <input type="text" name="nombre" id="nombre-contacto">
+                    <label for="telefono-contacto">Telefono</label>
+                    <input type="tel" name="telefono" id="telefono-contacto">
+                    <label for="email-contacto">Email</label>
+                    <input type="email" name="email" id="email-contacto">
+                    <label for="texto-contacto">Mensaje</label>
+                    <textarea name="texto" id="texto-contacto" cols="30" rows="10"></textarea>
+                    <button class="boton-oscuro" type="submit">Enviar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="column-contacto">
+            <img src="assets/media/logo-sf.png" alt="Logo de la empresa">
+        </div>
+        <div class="column-contacto">
+            <h3>Contacto</h3>
+            <ul>
+                <li>Cordoba, Argentina</li>
+                <li>TechStore@gmail.com</li>
+                <li>3515569874</li>
+            </ul>
+        </div>
+        <div class="column-contacto">
+            <h3>Seguinos en nuestras redes sociales</h3>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script type="module" src="/assets/js/principal.js"></script>
+    <script src="https://kit.fontawesome.com/3c639ff582.js" crossorigin="anonymous"></script>
+    <title>Tech Store</title>
+</head>
+<body>
+    <header class="contenedor-nav">
+        <a href="#" class="nav-url__a"><img class="nav__img" src="assets/media/logo-sf.png" alt="Logo"></a>
+        <nav class="contenedor-enlaces__nav">
+            <ul class="nav-listas">
+                <li><a href="index.html" class="nav-listas__a">Inicio</a></li>
+                <li><a href="productos.html" class="nav-listas__a">Productos</a></li>
+                <li><a href="formulario.html" class="nav-listas__a">Formulario</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main-productos">
+
+        <section class="catalogo">
+            <div class="categoria-catalogo">
+                <label for="categoria-nombre">Categorias</label>
+                <select name="categoria-nombre" id="categoria-nombre">
+                    <option value="todos">Todos</option>
+                    <option value="pc">PCs</option>
+                    <option value="Notebooks">Notebooks</option>
+                    <option value="Perifericos">Perifericos</option>
+                    <option value="Monitores">Monitores</option>
+                    <option value="Celulares">Celulares</option>
+                    <option value="sillas">Sillas y butacas</option>
+                    <option value="Tablets">Tablets</option>
+                    <option value="Accesorios">Accesorios</option>
+                    <option value="Fotografia">Fotografía y video</option>
+                    <option value="Auriculares">Auriculares</option>
+                </select>
+            </div>
+
+
+
+            <div class="filtros-catalogo">
+                <h3 class="boton-oscuro boton-oscuro__filtrar" id="boton-filtrar">Filtrar</h3>
+            </div>
+        </section>
+
+        <section class="section-productos" >
+            <div class="contenedor-productos" id="catalogo-productos">
+                <article class="producto-article producto-article--color">
+                    <figure class="producto-article__img">
+                        <img src="" alt="imagen de producto">
+                    </figure>
+                    <div class="producto-article__info">
+                        <h2 class="producto-article__titulo">producto</h2>
+                        <h3>Precio</h3>
+                        <div class="contenedor-descripcion__producto">
+                            <p class="descripcion-producto__p">Descripcion</p>
+                        </div>
+                        <button class="producto-article__boton boton-oscuro">Ver Producto</button>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+
+    </main>
+
+    <footer>
+        <div class="column-contacto">
+            <img src="assets/media/logo-sf.png" alt="Logo de la empresa">
+        </div>
+        <div class="column-contacto">
+            <h3>Contacto</h3>
+            <ul>
+                <li>Cordoba, Argentina</li>
+                <li>TechStore@gmail.com</li>
+                <li>3515569874</li>
+            </ul>
+        </div>
+        <div class="column-contacto">
+            <h3>Seguinos en nuestras redes sociales</h3>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
