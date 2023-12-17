@@ -7,3 +7,7 @@ El sitio web está estructurado de la siguiente manera:
 -	Página de Inicio: Contiene una presentación del concepto de la tienda tecnológica.
 -	Página de productos: Aquí se podrá encontrar los productos que se encuentran disponibles, organizados por categoría.
 -	Página de contacto: Esta página proporciona información de contacto.
+
+
+## Link
+[Click Aquí](https://micabazan.github.io/)
