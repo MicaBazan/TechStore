@@ -11,7 +11,7 @@
 </head>
 <body>
     <header class="contenedor-nav">
-        <a href="#" class="nav-url__a"><img class="nav__img" src="assets/media/logo-sf.png" alt="Logo"></a>
+        <a href="index.html" class="nav-url__a"><img class="nav__img" src="assets/media/logo-sf.png" alt="Logo"></a>
         <nav class="contenedor-enlaces__nav">
             <ul class="nav-listas">
                 <li><a href="index.html" class="nav-listas__a">Inicio</a></li>
@@ -28,13 +28,13 @@
             <div>
                 <form class="form-contacto" action="formulario.html">
                     <label for="nombre-contacto">Nombre</label>
-                    <input type="text" name="nombre" id="nombre-contacto">
+                    <input type="text" name="nombre" id="nombre-contacto" required>
                     <label for="telefono-contacto">Telefono</label>
-                    <input type="tel" name="telefono" id="telefono-contacto">
+                    <input type="tel" name="telefono" id="telefono-contacto" required>
                     <label for="email-contacto">Email</label>
-                    <input type="email" name="email" id="email-contacto">
+                    <input type="email" name="email" id="email-contacto" required>
                     <label for="texto-contacto">Mensaje</label>
-                    <textarea name="texto" id="texto-contacto" cols="30" rows="10"></textarea>
+                    <textarea name="texto" id="texto-contacto" cols="30" rows="10" required></textarea>
                     <button class="boton-oscuro" type="submit">Enviar</button>
                 </form>
             </div>
