@@ -10,4 +10,4 @@ El sitio web está estructurado de la siguiente manera:
 
 
 ## Link
-[Click Aquí](https://micabazan.github.io/)
+[Click Aquí](https://micabazan.github.io/TechStore/index.html)
