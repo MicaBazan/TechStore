@@ -265,18 +265,18 @@ main{
     .h3-gamer{
         font-family: 'Lato', sans-serif;
         color: yellow;
-        font-size: 70px;
+        font-size: 85px;
         top: 1px;
-        left: 190px;
+        left: 260px;
         text-shadow: 5px 4.5px 7px yellow;
     }
     
     .h3-day{
         font-family: 'Lato', sans-serif;
         color: white;
-        font-size: 70px;
-        top: 75px;
-        left: 235px;
+        font-size: 85px;
+        top: 95px;
+        left: 320px;
         text-shadow: 5px 4.5px 7px white;
     }
     
@@ -284,15 +284,15 @@ main{
         font-family: 'Poppins', sans-serif;
         color: white;
         font-size: 40px;
-        top: 185px;
-        left: 115px;
+        top: 250px;
+        left: 200px;
     }
     .h3-nuestra{
         font-family: 'Poppins', sans-serif;
         color: white;
         font-size: 40px;
-        top: 235px;
-        left: 160px;
+        top: 300px;
+        left: 260px;
     }
 }
 
